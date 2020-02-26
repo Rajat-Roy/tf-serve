@@ -4,6 +4,10 @@
 ```bash
 docker pull tensorflow/serving
 
+wget https://github.com/Rajat-Roy/tf-serve/releases/download/v1/mobilenet.zip
+
+unzip mobilenet.zip
+
 docker run -p 8501:8501 \
   --mount type=bind,source=$(pwd)/mobilenet,target=/models/mobilenet \
   -e MODEL_NAME=mobilenet -t tensorflow/serving
