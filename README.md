@@ -29,8 +29,8 @@ export FLASK_APP=server
 flask run --host=0.0.0.0
 ```
   
-# Test images
+# Usage
 Works only on jpg image urls
 ```
-http://[host-ip-address]:5000/?img_url=https://us.123rf.com/450wm/gumpapa/gumpapa1510/gumpapa151000033/47332942-white-duck-stand-next-to-a-pond-or-lake-with-bokeh-background.jpg
+http://[host-ip-address]:5000/?img_url=https://image.jpg
 ```
