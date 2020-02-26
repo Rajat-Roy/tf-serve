@@ -23,6 +23,8 @@ source venv/bin/activate
 pip install Flask
 python -m flask --version
 
+wget https://github.com/Rajat-Roy/tf-serve/raw/master/server.py
+
 export FLASK_APP=server
 flask run --host=0.0.0.0
 ```
